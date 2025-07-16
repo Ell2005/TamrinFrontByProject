@@ -7,12 +7,8 @@
     <title>FrontProject</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      href="./assets/materialize-v1.0.0 (1)/materialize/css/materialize.min.css"
     />
-    <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
-    ></script>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -20,17 +16,17 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
+    <!-- navbar station _________start_________ -->
     <nav class="white z-depth-0">
       <div class="nav-wrapper">
-        <a href="#!" class="blue-text">Home</a>
-        <a href="#" data-targrt="mobile-demo" class="sidenav-trigger blue-text">
+        <a href="#!" class="blue-text margin-l-1em bold">Home</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text">
           <i class="material-icons">menu</i>
         </a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">Javascript</a></li>
-          <li><a href="mobile.html">Mobile</a></li>
+          <li><a class="blue-text subheader">Pages</a></li>
+          <li><a href="#!" class="blue-text">Home</a></li>
+          <li><a href="#!" class="blue-text">User</a></li>
         </ul>
       </div>
     </nav>
@@ -38,7 +34,10 @@
       <li>
         <div class="user-view">
           <div class="background">
-            <img class="w-100" src="./assets/images/IMG_20240124_164327.jpg" />
+            <img
+              class="w-100 h-12em"
+              src="./assets/images/IMG_20240124_164327.jpg"
+            />
           </div>
           <a href="#user">
             <img class="circle" src="./assets/images/IMG_20240906_124607.jpg" />
@@ -62,7 +61,22 @@
       <li><a href="#!" class="waves-effect">Home</a></li>
       <li><a href="#!" class="waves-effect">User</a></li>
     </ul>
+    <!-- navbar station _________end_________ -->
+
+    <!-- home station _________start_________ -->
+    <section class="flex-c-m flx-dir-clmn sizefull pad-r-20 pad-l-20 pad-t-50">
+      <img
+        class="fltr-d-shad w-100 max-w-200"
+        src="./assets/images/IMG_20231125_142549.jpg"
+        alt="Ell"
+      />
+      <a href="" class="waves-effect waves-light btn blue darken-4 w-100 max-w-250 mar-b-10 mar-t-10 bor-rad-5re"
+        >Programming Tutorial</a
+      >
+      <a href="" class="waves-effect waves-light btn blue darken-4 w-100 max-w-250 mar-b-10 mar-t-10 bor-rad-5re">Users Manager</a>
+    </section>
+
+    <script src="./assets/materialize-v1.0.0 (1)/materialize/js/materialize.min.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
-<!-- section3: -->
