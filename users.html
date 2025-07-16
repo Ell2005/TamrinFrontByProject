@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Users</title>
+    <link
+      rel="stylesheet"
+      href="./assets/materialize-v1.0.0 (1)/materialize/css/materialize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- navbar station _________start_________ -->
+    <nav class="white z-depth-0 top_navbar">
+      <div class="nav-wrapper">
+        <a href="#!" class="blue-text margin-l-1em bold hide-on-med-and-up">
+          Users Management
+        </a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="hide-on-med-and-down">
+          <li><a href="/" class="blue-text">Home</a></li>
+          <li><a href="/users.html" class="blue-text">User Management</a></li>
+          <li><a href="https://codeyad.com" class="blue-text">Codeyad</a></li>
+          <li>
+            <a href="https://youtube.com" class="blue-text">AQ fast learn</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img
+              class="w-100 h-12em"
+              src="./assets/images/IMG_20240124_164327.jpg"
+            />
+          </div>
+          <a>
+            <img class="circle" src="./assets/images/IMG_20240906_124607.jpg" />
+          </a>
+          <a>
+            <span class="white-text name">Elnaz Mahdaviniya</span>
+          </a>
+          <a>
+            <span class="white-text email">elimhn2005@gmail.com</span>
+          </a>
+        </div>
+      </li>
+      <li>
+        <a href="#!"><i class="material-icons">insert_link</i>AQ Fast learn</a>
+      </li>
+      <li>
+        <a href="#!"><i class="material-icons">insert_link</i>Codeyad</a>
+      </li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader">Pages</a></li>
+      <li><a href="/" class="waves-effect">Home</a></li>
+      <li><a href="./users.html" class="waves-effect">Users</a></li>
+    </ul>
+    <!-- navbar station _________end_________ -->
+
+    <!-- content station _________start_________ -->
+    <section id="top_actions_section">
+      <!-- ________ add button ________ -->
+      <div class="pad-l-10 pad-r-10 pad-t-10">
+        <button
+          class="waves-effect waves-light btn blue darken-2 pad-l-30 pad-r-30 w-100 bor-rad-5re flex-c-m"
+        >
+          <i class="material-icons mar-r-5">add</i>
+          Add User
+        </button>
+      </div>
+      <!-- ________ search section ________ -->
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="text" class="validate" id="seaarch" />
+          <label for="search">
+            <i class="material-icons pos-relative t-7">search</i>
+            Search
+          </label>
+        </div>
+      </div>
+    </section>
+    <!-- content station _________end_________ -->
+
+    <script src="./assets/materialize-v1.0.0 (1)/materialize/js/materialize.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
